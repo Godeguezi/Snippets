@@ -1,0 +1,60 @@
+Vars:
+	- var		Creates a variable
+	- vrs		Creates a string variable
+	- vrb		Creates a boolean variable
+	- vrl		Creates a list variable
+	- vrc		Creates a class variable
+
+Properties:
+	- prps		Creates a string property
+	- prpi		Creates an int property
+	- prpd		Creates a decimal property
+	- prpdb		Creates a double property
+	- prpb 		Creates a boolean property
+	- prpl		Creates a List property
+	- prpil		Creates an IList property
+	- prpdt 	Creates a DateTime property
+	- prp		Creates a property
+
+Methos:
+	- mtd		Creates a Method
+	- mtdl		Creates a List Method
+	- mtda		Creates a Method Async
+	- mtdla		Creates a List Method Async
+	- 
+	- 
+	- 
+	- 
+	- 
+	- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

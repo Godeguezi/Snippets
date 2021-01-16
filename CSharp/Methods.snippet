@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Method</Title>
+      <Author>Godeguezi</Author>
+      <Description>Creates a Method</Description>
+      <Shortcut>mtd</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[$mod$ $rettype$ $metname$()
+    {
+        $end$
+    }]]>
+      </Code>
+      <Declarations>
+        <Literal>
+          <ID>mod</ID>
+          <Default>private</Default>
+        </Literal>
+        <Literal>
+          <ID>rettype</ID>
+          <Default>void</Default>
+        </Literal>
+        <Literal>
+          <ID>metname</ID>
+          <Default>met</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Method List</Title>
+      <Author>Godeguezi</Author>
+      <Description>Creates a List Method</Description>
+      <Shortcut>mtdl</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[$mod$ List<$rettype$> $metname$() {
+        var $ret$ = new List<$rettype$>();
+        $end$ 
+        return $ret$;
+    }]]>
+      </Code>
+      <Declarations>
+        <Literal>
+          <ID>mod</ID>
+          <Default>private</Default>
+        </Literal>
+        <Literal>
+          <ID>rettype</ID>
+          <Default>object</Default>
+        </Literal>
+        <Literal>
+          <ID>metname</ID>
+          <Default>met</Default>
+        </Literal>
+        <Literal>
+          <ID>ret</ID>
+          <Default>ret</Default>
+        </Literal>
+      </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>System.Collections.Generic</Namespace>
+        </Import>
+      </Imports>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Method Async</Title>
+      <Author>Godeguezi</Author>
+      <Description>Creates a Method Async</Description>
+      <Shortcut>mtda</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[$mod$ async $rettype$ $metname$()
+    {
+        $end$
+    }]]>
+      </Code>
+      <Declarations>
+        <Literal>
+          <ID>mod</ID>
+          <Default>private</Default>
+        </Literal>
+        <Literal>
+          <ID>rettype</ID>
+          <Default>void</Default>
+        </Literal>
+        <Literal>
+          <ID>metname</ID>
+          <Default>met</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Method List Async</Title>
+      <Author>Godeguezi</Author>
+      <Description>Creates a List Method Async</Description>
+      <Shortcut>mtdla</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[$mod$ async List<$rettype$> $metname$() {
+        var $ret$ = new List<$rettype$>();
+        $end$ 
+        return $ret$;
+    }]]>
+      </Code>
+      <Declarations>
+        <Literal>
+          <ID>mod</ID>
+          <Default>private</Default>
+        </Literal>
+        <Literal>
+          <ID>rettype</ID>
+          <Default>object</Default>
+        </Literal>
+        <Literal>
+          <ID>metname</ID>
+          <Default>met</Default>
+        </Literal>
+        <Literal>
+          <ID>ret</ID>
+          <Default>ret</Default>
+        </Literal>
+      </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>System.Collections.Generic</Namespace>
+        </Import>
+      </Imports>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

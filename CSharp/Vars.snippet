@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+   <CodeSnippet Format="1.0.0">
+      <Header>
+         <Title>Variable</Title>
+         <Author>Godeguezi</Author>
+         <Description>Creates a variable</Description>
+         <Shortcut>var</Shortcut>
+      </Header>
+      <Snippet>
+         <Code Language="CSharp">
+            <![CDATA[var $VarName$ = $Value$;$end$]]>
+         </Code>
+         <Declarations>
+            <Literal>
+               <ID>VarName</ID>
+               <ToolTip>Variable name</ToolTip>
+               <Default>myVar</Default>
+            </Literal>
+            <Literal>
+               <ID>Value</ID>
+               <ToolTip>Variable value</ToolTip>
+               <Default>0</Default>
+            </Literal>
+         </Declarations>
+      </Snippet>
+   </CodeSnippet>
+
+   <CodeSnippet Format="1.0.0">
+      <Header>
+         <Title>String variable</Title>
+         <Author>Godeguezi</Author>
+         <Description>Creates a string variable</Description>
+         <Shortcut>vrs</Shortcut>
+      </Header>
+      <Snippet>
+         <Code Language="CSharp">
+            <![CDATA[var $VarName$ = "$Value$";$end$]]>
+         </Code>
+         <Declarations>
+            <Literal>
+               <ID>VarName</ID>
+               <ToolTip>Variable name</ToolTip>
+               <Default>myVar</Default>
+            </Literal>
+            <Literal>
+               <ID>Value</ID>
+            </Literal>
+         </Declarations>
+      </Snippet>
+   </CodeSnippet>
+
+   <CodeSnippet Format="1.0.0">
+      <Header>
+         <Title>Boolean variable</Title>
+         <Author>Godeguezi</Author>
+         <Description>Creates a boolean variable</Description>
+         <Shortcut>vrb</Shortcut>
+      </Header>
+      <Snippet>
+         <Code Language="CSharp">
+            <![CDATA[var $VarName$ = $varvalue$;$end$]]>
+         </Code>
+         <Declarations>
+            <Literal>
+               <ID>VarName</ID>
+               <ToolTip>Variable name</ToolTip>
+               <Default>myVar</Default>
+            </Literal>
+            <Literal>
+               <ID>varvalue</ID>
+               <ToolTip>Variable value</ToolTip>
+               <Default>true</Default>
+            </Literal>
+         </Declarations>
+      </Snippet>
+   </CodeSnippet>
+
+   <CodeSnippet Format="1.0.0">
+      <Header>
+         <Title>List variable</Title>
+         <Author>Godeguezi</Author>
+         <Description>Creates a list variable</Description>
+         <Shortcut>vrl</Shortcut>
+      </Header>
+      <Snippet>
+         <Code Language="CSharp">
+            <![CDATA[var $VarName$ = new List<$ListType$>();$end$]]>
+         </Code>
+         <Declarations>
+            <Literal>
+               <ID>VarName</ID>
+               <ToolTip>Variable name</ToolTip>
+               <Default>myVar</Default>
+            </Literal>
+            <Literal>
+               <ID>ListType</ID>
+               <ToolTip>List type</ToolTip>
+               <Default></Default>
+            </Literal>
+         </Declarations>
+         <Imports>
+            <Import>
+               <Namespace>System.Collections.Generic</Namespace>
+            </Import>
+         </Imports>
+      </Snippet>
+   </CodeSnippet>
+
+   <CodeSnippet Format="1.0.0">
+      <Header>
+         <Title>New class variable</Title>
+         <Author>Godeguezi</Author>
+         <Description>Creates a class variable</Description>
+         <Shortcut>vrc</Shortcut>
+      </Header>
+      <Snippet>
+         <Code Language="CSharp">
+            <![CDATA[var $VarName$ = new $ListType$();$end$]]>
+         </Code>
+         <Declarations>
+            <Literal>
+               <ID>VarName</ID>
+               <ToolTip>Variable name</ToolTip>
+               <Default>myVar</Default>
+            </Literal>
+            <Literal>
+               <ID>ListType</ID>
+               <ToolTip>List type</ToolTip>
+               <Default>list</Default>
+            </Literal>
+         </Declarations>
+      </Snippet>
+   </CodeSnippet>
+</CodeSnippets>
